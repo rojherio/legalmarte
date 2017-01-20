@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^.*(?!js|css)$ ./index.php
+
+#RewriteEngine On
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule . index.php [L]
+#Header set Access-Control-Allow-Origin "*"
+#Header set Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+#Header set Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+##AddHandler application/x-httpd-php55  .php55 .php

@@ -1,0 +1,113 @@
+hr,
+a.btn-line,
+a.btn-line:hover,
+button.btn-line,
+.preloader p,
+header ul li:hover,
+#menu .active a,
+.responsive-nav ul li a:hover,
+.responsive-nav .icon,
+.contact-modal-icon,
+.modal-title,
+.icon,
+.iconCircle,
+.owl-prev,
+.owl-next,
+#features h3,
+#news .info,
+.social li a,
+#news .author a,
+.responsive-button a:hover {
+	color: #E38722;
+}
+
+.iconCircle,
+.btn-line,
+.owl-prev,
+.owl-next {
+	border-color: #E38722;
+}
+
+.btn-theme,
+.iconCircle:hover,
+.text-icon-left:hover .iconCircle,
+.text-icon-right:hover .iconCircle,
+.popular,
+.buttons-tab a {
+	background-color: #E38722;
+}
+
+.color-overlay {
+	background-color: rgba(227,135,34,0.6);
+}
+
+.contact-box #submit:hover {
+	color: #E38722 !important;
+}
+
+/* v1.2: testimonials */
+
+#testimonials cite,
+#facts .text-icon-left i {
+	color: #E38722;
+}
+
+/* v1.3 */
+
+.loader-one {
+	border-color: rgba(227,135,34,0.6);
+	border-left-color: #E38722;
+}
+
+.loader-two,
+.loader-two:before,
+.loader-two:after {
+	background: #E38722;
+}
+
+@-webkit-keyframes load1 {
+	0%, 80%, 100% {
+		box-shadow: 0 0 #E38722;
+		height: 4em;
+	}
+	40% {
+		box-shadow: 0 -2em #E38722;
+		height: 5em;
+	}
+}
+
+@keyframes load1 {
+	0%, 80%, 100% {
+		box-shadow: 0 0 #E38722;
+		height: 4em;
+	}
+	40% {
+		box-shadow: 0 -2em #E38722;
+		height: 5em;
+	}
+}
+
+#about .intro p,
+#benefits .intro p,
+.normal .price {
+	border-color: #E38722 !important;
+}
+
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-head,
+.info-bg {
+	color: #E38722;
+}
+
+.popular .price {
+	background-image: -webkit-repeating-radial-gradient(center center, #E38722, #E38722 1px, transparent 1px, transparent 100%);
+	background-image: -moz-repeating-radial-gradient(center center, #E38722, #E38722 1px, transparent 1px, transparent 100%);
+	background-image: -ms-repeating-radial-gradient(center center, #E38722, #E38722 1px, transparent 1px, transparent 100%);
+	background-image: repeating-radial-gradient(center center, #E38722, #E38722 1px, transparent 1px, transparent 100%);
+}
+
+/* BLOG */
+
+.data-post a,
+.data-post span,
+.data-comment-name,
+.sidebar-blog h2 {color: #E38722 !important;}

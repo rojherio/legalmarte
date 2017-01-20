@@ -1,0 +1,127 @@
+body,
+.color-a {
+	background: #0F1216;
+}
+
+.color-b {
+	background: #111419;
+}
+
+h2, h3 {
+	color: #B9C7D5;
+}
+
+.preloader {
+    background-color: #0F1216;
+}
+
+.text-icon-left:hover .iconCircle,
+.text-icon-right:hover .iconCircle {
+	color: #111419;
+}
+
+.responsive-nav {
+	background-color: #0F1216;
+	border-bottom: 1px solid #13171C;
+}
+
+/* TAB */
+
+.buttons-tab a,
+.buttons-tab a .icon {
+	color: #0F1216;
+}
+
+/* SCREENSHOTS BUTTONS */
+
+.owl-prev,
+.owl-next {
+	color: #0F1216;
+}
+
+/* PRICING */
+
+.normal {
+	background-color: #0F1216;
+}
+
+.normal .price {
+	background-color: #111419 !important;
+}
+
+.popular .package {
+	color: #fff !important;
+}
+
+
+/* NEWS */
+
+#news h3 {
+	color: #b9c7d5;
+}
+
+#news li {
+	border-color: #13171C;
+}
+
+#news li:first-child  {
+	border-color: #13171C;
+}
+
+/* v1.2 */
+
+.owl-theme .owl-dots .owl-dot span {
+	background: #000;
+}
+
+#testimonial .icon-quote-left,
+#testimonial .icon-quote-right {
+	color: #0F1216;
+}
+
+/* v1.3 */
+
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-panel {
+	border-color: #0C0E11;
+}
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-head,
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-panel {
+	background: #0F1216;
+}
+
+#about .intro p,
+#benefits .intro p,
+.normal .price {
+	border-color: #0F1216;
+}
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-head,
+.info-bg {
+	color: #0F1216;
+}
+
+.normal .price {
+	border-left: 2px solid;
+	border-right: 2px solid;
+	background-image: -webkit-repeating-radial-gradient(center center, #000, #000 1px, transparent 1px, transparent 100%);
+	background-image: -moz-repeating-radial-gradient(center center, #000, #000 1px, transparent 1px, transparent 100%);
+	background-image: -ms-repeating-radial-gradient(center center, #000, #000 1px, transparent 1px, transparent 100%);
+	background-image: repeating-radial-gradient(center center, #000, #000 1px, transparent 1px, transparent 100%);
+}
+
+/* blog */
+
+#posts article {border-bottom: 1px solid #000;}
+#posts article h1 {color: #B9C7D5;}
+.withSidebar article:last-child {border: none !important;}
+.withSidebar article {border-bottom: 1px dashed #20242C !important;}
+.sidebar-recent-posts, .sidebar-categories {border-color: #15191F;}
+.comment {border-color: #15191F;}
+.sidebar-tags li a, .post-tags li a {
+	background: #5A646E;
+	color: #111419;
+}
+
+.comment-reply {
+	border-left: 1px solid #5A646E;
+	border-right: 1px solid #5A646E;
+}
